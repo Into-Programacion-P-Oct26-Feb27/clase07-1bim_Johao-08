@@ -18,22 +18,28 @@ public class Ejemplo02 {
         // TODO code application logic here
         Scanner entrada = new Scanner(System.in);
         entrada.useLocale(Locale.US);
+        
         int limite;
         int contador = 1;
+        
         System.out.println("Ingrese el Límite"); 
         limite = entrada.nextInt(); // 6
+        
         while (contador <= limite){
-            
             if (contador%2!=0) {
                 System.out.printf("Contador %d\n", 
                     contador);
+                
+                
             }
             
             contador = contador + 1;
         }
         
+        
     }
 }
 /*
-
+Generar un programa que me permita ingresar un limite por teclado y presentar
+la suma de todos los numeros impares que existan entre 1 y el limite
 */
